@@ -1,0 +1,22 @@
+{
+    "name": "krowTM/video-importer",
+    "description": "Command line script to import videos.",
+    "require": {
+        "symfony/console": "^3.1",
+        "symfony/yaml": "^3.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^1.11",
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VideoImporter\\": "src/"
+        }
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"chmod +x bin/import"
+		]
+	}
+}

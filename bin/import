@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+require_once realpath(__DIR__.'/../vendor/autoload.php');
+
+use VideoImporter\VideoImportApplication;
+
+$application = new VideoImportApplication();
+
+$application->run();
