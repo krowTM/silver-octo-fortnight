@@ -1,15 +1,15 @@
 # Video Importer
 
 ## 1. Setup
-   - run "composer update"
-   - run "chmod +x bin/import"
+   - run `composer install`
+   - run `chmod +x bin/import`
 
 ## 2. Running
-   - run "php bin/import glorf"
-   - run "php bin/import flub"
+   - run `php bin/import glorf`
+   - run `php bin/import flub`
    
 ## 3. Tests
-   - run "vendor/bin/phpunit"
+   - run `vendor/bin/phpunit`
 
 ## 4. Others
    - I have written unit tests before with PHPUnit
