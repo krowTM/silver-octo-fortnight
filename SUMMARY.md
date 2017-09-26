@@ -5,8 +5,8 @@
    - run `chmod +x bin/import`
 
 ## 2. Running
-   - run `php bin/import glorf`
-   - run `php bin/import flub`
+   - run `./bin/import glorf`
+   - run `./bin/import flub`
    
 ## 3. Tests
    - run `vendor/bin/phpunit`
