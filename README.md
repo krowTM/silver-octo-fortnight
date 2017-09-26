@@ -9,7 +9,7 @@
    - run `./bin/import flub`
    
 ## 3. Tests
-   - run `vendor/bin/phpunit`
+   - run `./vendor/bin/phpunit`
 
 ## 4. Others
    - I have written unit tests before with PHPUnit
